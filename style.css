@@ -1,0 +1,192 @@
+body {
+    background-color: #17171f;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+    height: 80px; /* Reduziert die Höhe für eine kompaktere Kopfzeile */
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Nutzt Platz effizienter */
+    align-items: center;
+    padding: 0 20px; /* Fügt Innenabstand hinzu, um Elemente voneinander zu trennen */
+}
+
+.gitlink {
+    text-decoration: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background-color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.gitlink:hover {
+    text-decoration: underline;
+    color: rgb(255, 152, 17);
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+    background-color: #39393a;
+}
+
+.main-content {
+    background: linear-gradient(360deg, #35bd5e 0%, #0099ff 100%);
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 150px;
+    width: 15%;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.speak {
+    margin-left: 150px;
+    width: 30%;
+    margin-left: -150px;
+    margin-top: -350px;
+}
+
+.video {
+    margin-left: 230px;
+    margin-top: 40px;
+}
+
+.github-image {
+    margin-left: 225px;
+    margin-top: 80px;
+    width: 10%;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.twitch-image {
+    margin-left: 225px;
+    width: 10%;
+    margin-top: 80px;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.discord-image {
+    margin-left: 225px;
+    width: 10%;
+    margin-top: 80px;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.youtube-image {
+    margin-left: 225px;
+    width: 10%;
+    margin-top: 80px;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.github-image:hover {
+    margin-left: 225px;
+    margin-top: 80px;
+    width: 10%;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgba(131, 131, 131, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+.twitch-image:hover {
+    margin-left: 225px;
+    width: 10%;
+    margin-top: 80px;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgb(145, 22, 175);
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+.discord-image:hover {
+    margin-left: 225px;
+    width: 10%;
+    margin-top: 80px;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgb(0, 47, 255);
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+.youtube-image:hover {
+    margin-left: 225px;
+    width: 10%;
+    margin-top: 80px;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    filter: blur(0.1px);
+    background-color: rgb(255, 77, 77);
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.sourcecodelink {
+    text-decoration: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 894px;
+}
+
+.impressumlink {
+    text-decoration: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 765px;
+    margin-top: 0.01%;
+    
+}
+
+.sourcecodelink:hover {
+    text-decoration: none;
+    color: rgb(0, 255, 85);
+    padding: 16px 32px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 894px;
+    
+}
+
+.impressumlink:hover {
+    text-decoration: none;
+    color: rgb(0, 255, 85);
+    padding: 16px 32px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 765px;
+    
+}
+
+
